@@ -286,6 +286,22 @@
                     <i class="fas fa-play-circle"></i> DESIGN YOUR APP TODAY
                 </button>
             </div>
+
+            <!-- NEW SERVICE: Social Media Management -->
+            <div class="glass border border-white/10 rounded-3xl p-8 group hover:border-cyan-400/50">
+                <div class="h-14 w-14 bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:rotate-12">📱</div>
+                <h3 class="text-3xl font-semibold mb-3">Social Media Management</h3>
+                <p class="text-white/70 mb-8">Full management of Facebook &amp; Instagram accounts + high-performing Meta Ads campaigns. I handle content, growth, and paid advertising so you can focus on your business.</p>
+                <ul class="space-y-3 text-sm mb-8">
+                    <li class="flex items-center gap-x-2"><i class="fas fa-check text-emerald-400"></i> Daily content creation &amp; scheduling</li>
+                    <li class="flex items-center gap-x-2"><i class="fas fa-check text-emerald-400"></i> Audience growth &amp; engagement</li>
+                    <li class="flex items-center gap-x-2"><i class="fas fa-check text-emerald-400"></i> Meta Ads campaigns with ROI tracking</li>
+                </ul>
+                <button onclick="showDemoModal(4)" 
+                        class="w-full py-4 border border-cyan-400 text-cyan-400 rounded-2xl hover:bg-cyan-400 hover:text-black font-medium flex justify-center items-center gap-x-2">
+                    <i class="fas fa-play-circle"></i> SEE DEMO
+                </button>
+            </div>
         </div>
     </section>
 
@@ -890,6 +906,27 @@
                     </div>
                     <p class="text-center mb-8 text-white/70">No templates. 100% custom to your vision — with your AI receptionist, review widget, and booking system already embedded.</p>
                     <button onclick="hideDemoModal()" class="px-10 py-4 bg-cyan-400 text-black rounded-2xl font-medium w-full">START YOUR CUSTOM DESIGN NOW</button>
+                `;
+            } else if (type === 4) {
+                content.innerHTML = `
+                    <h3 class="text-4xl font-semibold mb-6">Social Media Management Demo</h3>
+                    <div class="bg-[#0a0a1f] rounded-3xl overflow-hidden border border-white/20 mb-8">
+                        <div class="bg-gradient-to-r from-pink-500 to-rose-500 px-6 py-4 flex items-center gap-x-3 text-white">
+                            <div class="text-4xl">📱</div>
+                            <div class="font-medium">Facebook &amp; Instagram Management + Meta Ads</div>
+                        </div>
+                        <div class="p-8 text-left">
+                            <p class="text-white/80 mb-6">I take full ownership of your social media:</p>
+                            <ul class="space-y-4 text-sm">
+                                <li class="flex items-start gap-x-3"><span class="text-emerald-400 text-xl">✓</span> Daily content creation (posts, stories, reels)</li>
+                                <li class="flex items-start gap-x-3"><span class="text-emerald-400 text-xl">✓</span> Audience growth &amp; community engagement</li>
+                                <li class="flex items-start gap-x-3"><span class="text-emerald-400 text-xl">✓</span> Professional Meta Ads campaigns with clear ROI</li>
+                            </ul>
+                            <div class="mt-8 text-center text-xs bg-white/10 py-3 rounded-2xl">Real results for businesses in Kuala Lumpur</div>
+                        </div>
+                    </div>
+                    <p class="text-white/70 mb-8">Let me grow your brand on Facebook and Instagram while running profitable Meta Ads.</p>
+                    <button onclick="hideDemoModal()" class="px-10 py-4 bg-cyan-400 text-black rounded-2xl font-medium">CLOSE &amp; LET’S GROW YOUR SOCIALS</button>
                 `;
             }
             
